@@ -6,14 +6,18 @@ function deretAngka(angka) {
     // melakukan split array
     for (let i = 0; i < arrayAngka.length; i++) {
       arrayAngka[i] = arrayAngka[i].split("");
-    }
+    }//console.log(arrayAngka);  [ '5', '9', '5', '6', '5', '6' ],
+                              // [ '1', '5', '9', '4', '6', '6' ],
+                              // [ '5', '6' ]
      // melakukan sort dan join
     for (let i = 0; i < arrayAngka.length; i++) {
       arrayAngka[i] = arrayAngka[i].sort().join("");
-    }
+    } //console.log(arrayAngka); //[ '555669', '145669', '56' ] 
     //melakukan join
     const hasilSort = arrayAngka.join("");
     console.log(hasilSort);
+  }else{
+    console.log("inputan bukan number")
   }
 }
-deretAngka(5956560159466056);
+deretAngka("5956560159466056");
