@@ -20,4 +20,4 @@ function deretAngka(angka) {
     console.log("inputan bukan number")
   }
 }
-deretAngka("5956560159466056");
+deretAngka(5956560159466056);

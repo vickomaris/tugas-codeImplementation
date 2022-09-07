@@ -64,6 +64,6 @@ const pijarFood = (harga, promo, jarak, pajak) => {
     
     }
     
-    pijarFood(75000, 'PIJARFOOD5', 5, true) 
+    pijarFood(75000, 'DITRAKTIRPIJAR', 5, false) 
     
     //promo PIJARFOOD5(50% maks 50k) DITRAKTIRPIJAR(60% maks 30k)

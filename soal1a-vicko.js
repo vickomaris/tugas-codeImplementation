@@ -11,4 +11,4 @@ if(kata === reverseString){
   console.log('Ini Bukan Palindrom');
 }
 }
-palindrome('Malam');
+palindrome('siang');
